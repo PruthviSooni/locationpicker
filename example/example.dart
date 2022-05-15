@@ -13,7 +13,7 @@ class PickerDemoState extends State<PickerDemo> {
       appBar: AppBar(title: const Text('Picker Example')),
       body: Center(
         child: FlatButton(
-          child: Text("Pick Delivery location"),
+          child: Text("Pick   Delivery location"),
           onPressed: () {
             showPlacePicker();
           },
